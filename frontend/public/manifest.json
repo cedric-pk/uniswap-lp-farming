@@ -1,0 +1,15 @@
+{
+  "short_name": "ERC20",
+  "name": "Farm ERC20 with Uniswap LP Tokens",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg",
+      "sizes": "240x240"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

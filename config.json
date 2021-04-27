@@ -1,0 +1,50 @@
+{
+  "default": {
+    "erc20": {
+      "name": "ERC20 Mock Token",
+      "symbol": "ERC20",
+      "decimals": 10,
+      "supply": "100000000000"
+    },
+    "rewardPerBlock": "10000000",
+    "delay": 30,
+    "fund": "50000000000",
+    "lp": [
+      {
+        "name": "ERC20 LP Mock",
+        "symbol": "LP Token",
+        "decimals": 18,
+        "allocPoint": 120
+      }
+    ]
+  },
+  "kovan": {
+    "erc20": {
+      "address": "0xAdA673d512415c98e04C068A3b50022B2696cCCE"
+    },
+    "rewardPerBlock": "1000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      {
+        "address": "0x2e4c125f3c2baefd71c9100601caa13a198cc008",
+        "allocPoint": 120
+      }
+    ]
+  },
+  "mainnet": {
+    "erc20": {
+      "address": "0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3"
+    },
+    "rewardPerBlock": "40000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      {
+        "address": "0x856e90282961c0e7f6693fd2f62b35d5df9783cf",
+        "allocPoint": 120
+      }
+    ]
+  },
+  "test": false
+}
